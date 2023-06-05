@@ -1,0 +1,17 @@
+M:\csharp\test\test5\test2.1\Test56\Test56\bin\Debug\net6.0\Test56.exe
+M:\csharp\test\test5\test2.1\Test56\Test56\bin\Debug\net6.0\Test56.deps.json
+M:\csharp\test\test5\test2.1\Test56\Test56\bin\Debug\net6.0\Test56.runtimeconfig.json
+M:\csharp\test\test5\test2.1\Test56\Test56\bin\Debug\net6.0\Test56.dll
+M:\csharp\test\test5\test2.1\Test56\Test56\bin\Debug\net6.0\Test56.pdb
+M:\csharp\test\test5\test2.1\Test56\Test56\bin\Debug\net6.0\OneOf.dll
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.csproj.AssemblyReference.cache
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.GeneratedMSBuildEditorConfig.editorconfig
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.AssemblyInfoInputs.cache
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.AssemblyInfo.cs
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.csproj.CoreCompileInputs.cache
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.csproj.CopyComplete
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.dll
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\refint\Test56.dll
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.pdb
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\Test56.genruntimeconfig.cache
+M:\csharp\test\test5\test2.1\Test56\Test56\obj\Debug\net6.0\ref\Test56.dll

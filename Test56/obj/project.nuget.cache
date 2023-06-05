@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H0va2UgL1s3oQMdzRCL+o0WYHio/9cePsgCX0HMF8LRO13GwF+ijQQ5xDoUW0slKcF5mWzKgxnx2RZ7bV2dO8g==",
+  "success": true,
+  "projectFilePath": "M:\\csharp\\test\\test5\\test2.1\\Test56\\Test56\\Test56.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kalashnikov\\.nuget\\packages\\oneof\\3.0.243\\oneof.3.0.243.nupkg.sha512"
+  ],
+  "logs": []
+}
