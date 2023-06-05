@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Server server = new Server(65525);
+            Server server2 = new Server(65525);
         }
     }
 }

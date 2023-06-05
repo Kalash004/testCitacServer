@@ -9,9 +9,11 @@ namespace Test56
     public class ExitCommand : AbstractCommand
     {
         public Circuit circuit;
-        public ExitCommand(Circuit circuit)
+        public Server server;
+        public ExitCommand(Circuit circuit, Server server)
         {
             this.circuit = circuit;
+            this.server = server;
         }
 
         public override bool CanExecute(object? parameter)
@@ -22,6 +24,7 @@ namespace Test56
         public override void Execute(object? parameter)
         {
             circuit.IsRunning = false;
+            server.RemoveCircuit(circuit);
         }
     }
 }

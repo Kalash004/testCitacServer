@@ -12,8 +12,10 @@ namespace Test56
         private Citac citac;
         private Dictionary<string, AbstractCommand> commands = new Dictionary<string, AbstractCommand>();
         private bool isRunning;
+        private Server server;
 
         public bool IsRunning { get => isRunning; set => isRunning = value; }
+        public Server Server { get => server; set => server = value; }
 
         public Circuit(TcpClient tcpClient, Server server, Citac citac)
         {
@@ -21,6 +23,7 @@ namespace Test56
             CreateCommands(tcpClient, citac, server);
             reader = new StreamReader(tcpClient.GetStream(), Encoding.UTF8);
             writer = new StreamWriter(tcpClient.GetStream(), Encoding.UTF8);
+            this.server = server;
             this.citac = citac;
         }
 
@@ -29,9 +32,10 @@ namespace Test56
             commands.Add("up", new AddCommand(citac));
             commands.Add("down", new RemoveCommand(citac));
             commands.Add("value", new ValueCommand(citac));
-            commands.Add("exit", new ExitCommand(this));
+            commands.Add("exit", new ExitCommand(this,server));
             commands.Add("unknown", new UnknownCommand());
             commands.Add("help", new HelpCommand(commands));
+            commands.Add("clients", new ClientsNumberCommand(server));
         }
 
         public bool Run()

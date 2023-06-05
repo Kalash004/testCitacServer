@@ -26,6 +26,11 @@ namespace Test56
 
         public int AmoutOfUsers { get { return runtimeCircuits.Count; } }
 
+        public void RemoveCircuit(Circuit circuitToRemove)
+        {
+            runtimeCircuits.Remove(circuitToRemove);
+        }
+
         private void ServerLoop()
         {
             Console.WriteLine("Server Started");
